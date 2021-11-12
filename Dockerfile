@@ -1,6 +1,6 @@
 FROM alpine:3.14
-LABEL Maintainer="Tim de Pater <code@trafex.nl>"
-LABEL Description="Lightweight container with Nginx 1.20 & PHP 8.0 based on Alpine Linux."
+LABEL Maintainer="xiaoqiang <xiaoqiang@cutterman-cn.cn>"
+LABEL Description="PHP extensions add for laravel required based on TrafeX/docker-php-nginx"
 
 # Install packages and remove default server definition
 RUN apk --no-cache add \
@@ -19,6 +19,8 @@ RUN apk --no-cache add \
   php8-opcache \
   php8-openssl \
   php8-phar \
+  php8-tokenizer \
+  php8-pdo_mysql \
   php8-session \
   php8-xml \
   php8-xmlreader \
