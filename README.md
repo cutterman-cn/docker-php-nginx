@@ -1,3 +1,7 @@
+# Modified Readme
+
+this project forked from TrafeX/docker-php-nginx and add some php extensions to run Laravel
+
 # Docker PHP-FPM 8.0 & Nginx 1.20 on Alpine Linux
 Example PHP-FPM 8.0 & Nginx 1.20 container image for Docker, build on [Alpine Linux](https://www.alpinelinux.org/).
 
